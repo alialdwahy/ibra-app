@@ -8,7 +8,7 @@ router.post("/create-productCategory", authMiddleware, createProductCategory);
 router.put("/update-productCategory/:id", authMiddleware, updateProductCategory);
 router.delete("/delete-productCategory/:id", authMiddleware, deleteProductCategory);
 router.get("/get-productCategory/:id", authMiddleware, getProductCategory);
-router.get("/getall-productCategory", authMiddleware, getAllProductCategory);
+router.get("/getall-productCategory",  getAllProductCategory);
 
 
 module.exports = router;

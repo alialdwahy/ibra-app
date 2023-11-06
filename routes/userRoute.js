@@ -29,7 +29,7 @@ router.post("/apply-coupon", authMiddleware, applyCoupon);
 router.post("/create-order", authMiddleware, createOrder);
 router.get("/get-orders", authMiddleware, getOrders);
 router.get("/get-cart", authMiddleware, getUserCart);
-router.get("/all-users", authMiddleware, getallUser);
+router.get("/all-users", getallUser);
 router.get("/wishlist", authMiddleware, getWishlist);
 router.get("/userid/:id", authMiddleware,  getaUser);
 router.delete("/delete/:id", authMiddleware, deleteaUser);

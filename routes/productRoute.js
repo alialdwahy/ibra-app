@@ -16,7 +16,7 @@ router.put("/add-wishlist", authMiddleware, addToWishlist);
 router.put("/rating", authMiddleware, rating);
 router.delete("/deleteProduct/:id", authMiddleware, isAdmin, deleteProduct);
 router.delete("/delete-image/:id", authMiddleware, isAdmin, deleteImages);
-router.get("/getProduct", authMiddleware, getAllProduct);
+router.get("/getProduct",  getAllProduct);
 
 
 

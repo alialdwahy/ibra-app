@@ -8,7 +8,7 @@ router.post("/create-brand", authMiddleware, createBrand);
 router.put("/update-brand/:id", authMiddleware, updateBrand);
 router.delete("/delete-brand/:id", authMiddleware, deleteBrand);
 router.get("/get-brand/:id", authMiddleware, getBrand);
-router.get("/getall-brand", authMiddleware, getAllBrand);
+router.get("/getall-brand",  getAllBrand);
 
 
 module.exports = router;

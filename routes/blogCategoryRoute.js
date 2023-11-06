@@ -8,7 +8,7 @@ router.post("/create-blogCategory", authMiddleware, createBlogCategory);
 router.put("/update-blogCategory/:id", authMiddleware, updateBlogCategory);
 router.delete("/delete-blogCategory/:id", authMiddleware, deleteBlogCategory);
 router.get("/get-blogCategory/:id", authMiddleware, getBlogCategory);
-router.get("/getall-blogCategory", authMiddleware, getAllBlogCategory);
+router.get("/getall-blogCategory", getAllBlogCategory);
 
 
 module.exports = router;
